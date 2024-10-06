@@ -1,76 +1,141 @@
-ETF(X),Factor(Y),p-value (X->Y),p-value (Y->X),Granger Causality
-IWM,initial_jobless_claim,0.2131,0.0,Y -> X
+ETF,Factor,p-value (X->Y),p-value (Y->X),Granger Causality
+IWM,cfna_index,0.3001,0.1673,FALSE
+IWM,initial_jobless_claim,0.2133,0.0,Y -> X
 IWM,gdp_now_forecast,0.4386,0.0,Y -> X
 IWM,ism_manufacturing,0.276,0.0,Y -> X
 IWM,ism_nonmanufacturing,0.1571,0.0,Y -> X
 IWM,cpi,0.0066,0.0011,X <-> Y
 IWM,bei_breakeven_inflation,0.0,0.0867,X -> Y
+IWM,wti_oil_price,0.2484,0.0971,FALSE
+IWM,gold_price,0.1896,0.4339,FALSE
 IWM,unemployment_rate,0.028,0.0,X <-> Y
 IWM,pce_price_index_yoy,0.0187,0.0002,X <-> Y
+IWM,core_pce_price_index_yoy,0.1267,0.0095,Y -> X
 IWM,nonfarm_payroll,0.3567,0.0,Y -> X
-SPY,initial_jobless_claim,0.086,0.0001,Y -> X
-SPY,gdp_now_forecast,0.1867,0.0,Y -> X
+SPY,cfna_index,0.2471,0.6429,FALSE
+SPY,initial_jobless_claim,0.0869,0.0001,Y -> X
+SPY,gdp_now_forecast,0.1868,0.0,Y -> X
 SPY,ism_manufacturing,0.2947,0.0,Y -> X
 SPY,ism_nonmanufacturing,0.5912,0.0,Y -> X
 SPY,cpi,0.0041,0.0002,X <-> Y
 SPY,bei_breakeven_inflation,0.0003,0.021,X <-> Y
+SPY,wti_oil_price,0.1036,0.1842,FALSE
+SPY,gold_price,0.2126,0.6617,FALSE
 SPY,unemployment_rate,0.1377,0.0,Y -> X
 SPY,pce_price_index_yoy,0.0144,0.0,X <-> Y
 SPY,core_pce_price_index_yoy,0.2777,0.0041,Y -> X
 SPY,nonfarm_payroll,0.5006,0.0,Y -> X
-VTV,initial_jobless_claim,0.2159,0.0,Y -> X
-VTV,gdp_now_forecast,0.5835,0.0,Y -> X
+VTV,cfna_index,0.1833,0.6474,FALSE
+VTV,initial_jobless_claim,0.2162,0.0,Y -> X
+VTV,gdp_now_forecast,0.5839,0.0,Y -> X
 VTV,ism_manufacturing,0.0934,0.0,Y -> X
+VTV,ism_nonmanufacturing,0.1285,0.0,Y -> X
+VTV,cpi,0.2723,0.0,Y -> X
 VTV,bei_breakeven_inflation,0.0,0.0273,X <-> Y
-VTV,wti_oil_price,0.0225,0.0097,X <-> Y
+VTV,wti_oil_price,0.0226,0.0097,X <-> Y
+VTV,gold_price,0.0584,0.5763,FALSE
+VTV,unemployment_rate,0.6215,0.0,Y -> X
+VTV,pce_price_index_yoy,0.3784,0.0,Y -> X
+VTV,core_pce_price_index_yoy,0.2718,0.0001,Y -> X
 VTV,nonfarm_payroll,0.7369,0.0,Y -> X
-VUG,initial_jobless_claim,0.0355,0.0005,X <-> Y
+VUG,cfna_index,0.1249,0.4907,FALSE
+VUG,initial_jobless_claim,0.0357,0.0005,X <-> Y
 VUG,gdp_now_forecast,0.0467,0.0027,X <-> Y
 VUG,ism_manufacturing,0.0515,0.0,Y -> X
+VUG,ism_nonmanufacturing,0.4925,0.0,Y -> X
+VUG,cpi,0.2455,0.0001,Y -> X
 VUG,bei_breakeven_inflation,0.0,0.1376,X -> Y
-VUG,wti_oil_price,0.0123,0.0342,X <-> Y
+VUG,wti_oil_price,0.0125,0.0342,X <-> Y
+VUG,gold_price,0.7437,0.5457,FALSE
+VUG,unemployment_rate,0.156,0.0001,Y -> X
+VUG,pce_price_index_yoy,0.3065,0.0,Y -> X
+VUG,core_pce_price_index_yoy,0.0886,0.0045,Y -> X
 VUG,nonfarm_payroll,0.043,0.0003,X <-> Y
+MTUM,cfna_index,0.6096,0.403,FALSE
 MTUM,initial_jobless_claim,0.0604,0.0015,Y -> X
 MTUM,gdp_now_forecast,0.0367,0.0021,X <-> Y
 MTUM,ism_manufacturing,0.3227,0.0006,Y -> X
+MTUM,ism_nonmanufacturing,0.5504,0.002,Y -> X
+MTUM,cpi,0.0494,0.018,X <-> Y
+MTUM,bei_breakeven_inflation,0.0003,0.2932,X -> Y
+MTUM,wti_oil_price,0.033,0.8839,X -> Y
+MTUM,gold_price,0.1583,0.5883,FALSE
 MTUM,unemployment_rate,0.0074,0.0008,X <-> Y
+MTUM,pce_price_index_yoy,0.0615,0.0014,Y -> X
+MTUM,core_pce_price_index_yoy,0.2361,0.0467,Y -> X
 MTUM,nonfarm_payroll,0.0238,0.0004,X <-> Y
-QUAL,initial_jobless_claim,0.1724,0.0009,Y -> X
+QUAL,cfna_index,0.6974,0.353,FALSE
+QUAL,initial_jobless_claim,0.1728,0.0009,Y -> X
 QUAL,gdp_now_forecast,0.3495,0.0003,Y -> X
 QUAL,ism_manufacturing,0.2913,0.0015,Y -> X
+QUAL,ism_nonmanufacturing,0.3173,0.0006,Y -> X
+QUAL,bei_breakeven_inflation,0.0001,0.3179,X -> Y
+QUAL,wti_oil_price,0.0493,0.5964,X -> Y
+QUAL,gold_price,0.3242,0.5675,FALSE
 QUAL,unemployment_rate,0.0406,0.0002,X <-> Y
+QUAL,pce_price_index_yoy,0.0789,0.0007,Y -> X
+QUAL,core_pce_price_index_yoy,0.216,0.0214,Y -> X
 QUAL,nonfarm_payroll,0.1814,0.0001,Y -> X
-VYMI,initial_jobless_claim,0.282,0.0,Y -> X
-VYMI,gdp_now_forecast,0.2792,0.0,Y -> X
+VYMI,cfna_index,0.7871,0.5206,FALSE
+VYMI,initial_jobless_claim,0.286,0.0,Y -> X
+VYMI,gdp_now_forecast,0.2794,0.0,Y -> X
+VYMI,ism_manufacturing,0.642,0.0,Y -> X
 VYMI,ism_nonmanufacturing,0.0543,0.0032,Y -> X
+VYMI,bei_breakeven_inflation,0.0,0.1782,X -> Y
+VYMI,wti_oil_price,0.2215,0.2929,FALSE
+VYMI,gold_price,0.3644,0.3781,FALSE
 VYMI,unemployment_rate,0.0378,0.0,X <-> Y
+VYMI,pce_price_index_yoy,0.1047,0.0008,Y -> X
 VYMI,nonfarm_payroll,0.4778,0.0,Y -> X
-USMV,initial_jobless_claim,0.242,0.0,Y -> X
-USMV,gdp_now_forecast,0.3398,0.0,Y -> X
+USMV,cfna_index,0.8939,0.5653,FALSE
+USMV,initial_jobless_claim,0.24,0.0,Y -> X
+USMV,gdp_now_forecast,0.3397,0.0,Y -> X
 USMV,ism_manufacturing,0.8084,0.0125,Y -> X
 USMV,ism_nonmanufacturing,0.1035,0.0281,Y -> X
+USMV,cpi,0.2023,0.0081,Y -> X
+USMV,bei_breakeven_inflation,0.0005,0.0381,X <-> Y
+USMV,wti_oil_price,0.1115,0.6935,FALSE
+USMV,gold_price,0.8165,0.7379,FALSE
 USMV,unemployment_rate,0.0789,0.0,Y -> X
+USMV,pce_price_index_yoy,0.196,0.0028,Y -> X
+USMV,core_pce_price_index_yoy,0.3729,0.0133,Y -> X
 USMV,nonfarm_payroll,0.1439,0.0,Y -> X
-KBE,initial_jobless_claim,0.6545,0.0,Y -> X
-KBE,gdp_now_forecast,0.1326,0.0,Y -> X
+KBE,cfna_index,0.0797,0.5947,FALSE
+KBE,initial_jobless_claim,0.6534,0.0,Y -> X
+KBE,gdp_now_forecast,0.1324,0.0,Y -> X
+KBE,ism_manufacturing,0.0039,0.0005,X <-> Y
+KBE,ism_nonmanufacturing,0.2543,0.0,Y -> X
+KBE,cpi,0.0901,0.0571,FALSE
 KBE,bei_breakeven_inflation,0.0,0.2219,X -> Y
 KBE,wti_oil_price,0.0099,0.0632,X -> Y
+KBE,gold_price,0.0846,0.1162,FALSE
+KBE,unemployment_rate,0.8785,0.0,Y -> X
+KBE,pce_price_index_yoy,0.1011,0.019,Y -> X
+KBE,core_pce_price_index_yoy,0.6003,0.0014,Y -> X
 KBE,nonfarm_payroll,0.9495,0.0,Y -> X
+IYK,cfna_index,0.1168,0.8884,FALSE
 IYK,initial_jobless_claim,0.0002,0.0001,X <-> Y
-IYK,gdp_now_forecast,0.0629,0.0001,Y -> X
+IYK,gdp_now_forecast,0.0627,0.0001,Y -> X
 IYK,ism_manufacturing,0.0078,0.0,X <-> Y
 IYK,ism_nonmanufacturing,0.4632,0.0,Y -> X
 IYK,cpi,0.0289,0.0004,X <-> Y
 IYK,bei_breakeven_inflation,0.0,0.2666,X -> Y
+IYK,wti_oil_price,0.1188,0.5355,FALSE
+IYK,gold_price,0.5471,0.4469,FALSE
 IYK,unemployment_rate,0.0086,0.0,X <-> Y
 IYK,pce_price_index_yoy,0.0638,0.0001,Y -> X
+IYK,core_pce_price_index_yoy,0.281,0.0059,Y -> X
 IYK,nonfarm_payroll,0.0126,0.0,X <-> Y
-IYC,initial_jobless_claim,0.0487,0.0001,X <-> Y
-IYC,gdp_now_forecast,0.2129,0.0001,Y -> X
+IYC,cfna_index,0.1663,0.6597,FALSE
+IYC,initial_jobless_claim,0.049,0.0001,X <-> Y
+IYC,gdp_now_forecast,0.2131,0.0001,Y -> X
 IYC,ism_manufacturing,0.5611,0.0,Y -> X
 IYC,ism_nonmanufacturing,0.1811,0.0,Y -> X
 IYC,cpi,0.0028,0.0138,X <-> Y
 IYC,bei_breakeven_inflation,0.0,0.1743,X -> Y
+IYC,wti_oil_price,0.0529,0.1886,FALSE
+IYC,gold_price,0.4305,0.746,FALSE
 IYC,unemployment_rate,0.0129,0.0001,X <-> Y
 IYC,pce_price_index_yoy,0.0089,0.0019,X <-> Y
+IYC,core_pce_price_index_yoy,0.1341,0.0071,Y -> X
 IYC,nonfarm_payroll,0.283,0.0,Y -> X
